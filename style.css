@@ -1,0 +1,99 @@
+:root {
+    --main-color: #006633; /* لون علم الجزائر */
+    --secondary-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #f8f9fa;
+}
+
+header {
+    background: var(--main-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.flag {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+nav {
+    background: var(--secondary-color);
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+nav a {
+    color: var(--main-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid var(--main-color);
+}
+
+.hero-img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    border-left: 3px solid var(--main-color);
+    margin-left: 20px;
+}
+
+.timeline li {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: var(--secondary-color);
+    position: relative;
+}
+
+.timeline li::before {
+    content: "•";
+    color: var(--main-color);
+    font-size: 24px;
+    position: absolute;
+    left: -30px;
+    top: 5px;
+}
+
+.quote-card {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+blockquote {
+    font-size: 1.2em;
+    color: var(--main-color);
+    border-right: 4px solid var(--main-color);
+    padding-right: 15px;
+    margin: 10px 0;
+}
+
+footer {
+    background: var(--main-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
