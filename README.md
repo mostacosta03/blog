@@ -1,0 +1,2 @@
+# blog
+bin_mhidi
